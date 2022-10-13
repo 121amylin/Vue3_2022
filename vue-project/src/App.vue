@@ -15,6 +15,13 @@ const toggleMenuOpen = () => {
 // one way data flow DOME end
 // =======================================
 
+// =======================================
+// SCSSTry DOME start
+import SCSSTry from './components/SCSSTry.vue'
+
+// SCSSTry DOME end
+// =======================================
+
 </script>
 
 <template>
@@ -35,6 +42,12 @@ const toggleMenuOpen = () => {
   <Menu :isOpen="isOpen" :toggleMenuOpen="toggleMenuOpen"></Menu>
   <Content :isOpen="isOpen" :toggleMenuOpen="toggleMenuOpen"></Content>
   <!-- one way data flow DOME end -->
+
+
+
+  <!-- SCSSTry DOME start -->
+  <SCSSTry/>
+  <!-- SCSSTry DOME start -->
 
 </template>
 

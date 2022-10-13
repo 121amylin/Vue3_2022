@@ -7,9 +7,11 @@
 
 
 
-
-
-
+## 【安裝 SCSS】
+- [CSS 预处理器](https://cn.vitejs.dev/guide/features.html#css)
+```HTML
+npm add -D sass
+```
 
 
 --------------------------------------------------------------------------------
