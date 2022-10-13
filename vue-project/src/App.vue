@@ -2,25 +2,35 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
 
+
+// =======================================
+// SCSSTry DOME start
+import SCSSTry from './components/SCSSTry.vue'
+// SCSSTry DOME end
+// =======================================
+
+
+// =======================================
+// Skeleton start
+import Skeleton from './components/Skeleton.vue'
+// Skeleton end
+// =======================================
+
+
 // =======================================
 // one way data flow DOME start
 import { ref } from "vue"
 import Menu from './components/Menu.vue'
 import Content from './components/Content.vue'
+
 const isOpen = ref(false)
 const toggleMenuOpen = () => {
   isOpen.value = !isOpen.value
 }
-
 // one way data flow DOME end
 // =======================================
 
-// =======================================
-// SCSSTry DOME start
-import SCSSTry from './components/SCSSTry.vue'
 
-// SCSSTry DOME end
-// =======================================
 
 </script>
 
@@ -46,8 +56,13 @@ import SCSSTry from './components/SCSSTry.vue'
 
 
   <!-- SCSSTry DOME start -->
-  <SCSSTry/>
+  <SCSSTry />
   <!-- SCSSTry DOME start -->
+
+
+  <!-- Skeleton start -->
+  <Skeleton />
+  <!-- Skeleton end -->
 
 </template>
 
