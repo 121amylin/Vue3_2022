@@ -17,6 +17,11 @@ npm add -D sass
 - [DOME](https://codepen.io/MikeCheng1208/pen/PomyJNa)
 
 
+### [依賴注入](https://cn.vuejs.org/api/composition-api-dependency-injection.html#provide)
+- provide() 接受两个参数：第一个参数是要注入的 key，可以是一个字符串或者一个 symbol，第二个参数是要注入的值。
+- [[重構倒數第26天] - 你可能不需要Vuex (You might not need Vuex)](https://ithelp.ithome.com.tw/articles/10260315)
+- 用 readonly 函數包起來，就是要避免外面 inject 的時候不小心改到 state 的資料
+- [Vue 3 中的 Provide 與 Inject](https://uu9924079.medium.com/vue-3-%E4%B8%AD%E7%9A%84-provide-%E8%88%87-inject-a1da5b3fc28c)
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 <!-- ///////////////////////// 系統預設 ////////////////////// -->

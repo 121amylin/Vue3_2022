@@ -16,6 +16,41 @@ import Skeleton from './components/Skeleton.vue'
 // Skeleton end
 // =======================================
 
+// =======================================
+// ProvideTest start
+import { provide } from 'vue'
+import ProvideTest from './components/ProvideTest.vue'
+provide('user', [{
+  id: 1,
+  name: 'amy',
+  sex: '2'
+}, {
+  id: 2,
+  name: 'tommy',
+  sex: '1'
+}])
+// ProvideTest end
+// =======================================
+
+
+// =======================================
+// ProvideTest_readOnly start
+// import { ref, provide } from 'vue'
+import { readonly } from 'vue'
+import ProvideTest_readOnly from './components/ProvideTest_readOnly.vue'
+const date = readonly(ref([{
+    id: 1,
+    name: 'amy',
+    sex: '2'
+}, {
+    id: 2,
+    name: 'tommy',
+    sex: '1'
+}]))
+provide('user', date)
+// ProvideTest_readOnly end
+// =======================================
+
 
 // =======================================
 // one way data flow DOME start
@@ -54,7 +89,6 @@ const toggleMenuOpen = () => {
   <!-- one way data flow DOME end -->
 
 
-
   <!-- SCSSTry DOME start -->
   <SCSSTry />
   <!-- SCSSTry DOME start -->
@@ -63,6 +97,16 @@ const toggleMenuOpen = () => {
   <!-- Skeleton start -->
   <Skeleton />
   <!-- Skeleton end -->
+
+
+  <!-- ProvideTest start -->
+  <ProvideTest />
+  <!-- ProvideTest end -->
+
+
+  <!-- ProvideTest_readOnly start -->
+  <ProvideTest_readOnly />
+  <!-- ProvideTest_readOnly end -->
 
 </template>
 
