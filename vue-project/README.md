@@ -22,6 +22,10 @@ npm add -D sass
 - [[重構倒數第26天] - 你可能不需要Vuex (You might not need Vuex)](https://ithelp.ithome.com.tw/articles/10260315)
 - 用 readonly 函數包起來，就是要避免外面 inject 的時候不小心改到 state 的資料
 - [Vue 3 中的 Provide 與 Inject](https://uu9924079.medium.com/vue-3-%E4%B8%AD%E7%9A%84-provide-%E8%88%87-inject-a1da5b3fc28c)
+
+
+
+### HTML5 拖曳功能測試 => src\components\DragAndDropAPI.vue
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 <!-- ///////////////////////// 系統預設 ////////////////////// -->
