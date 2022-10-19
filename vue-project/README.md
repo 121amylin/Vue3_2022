@@ -44,6 +44,12 @@ import draggable from 'vuedraggable'
 
 - [vue.draggable.next DOME](https://sortablejs.github.io/Vue.Draggable/#/simple)
 
+### 原生HTML5彈窗DOME
+
+- DOME => src\components\Dialog.vue
+- [HTML原生弹窗dialog标签](https://blog.csdn.net/lfl976/article/details/121942324)
+
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 <!-- ///////////////////////// 系統預設 ////////////////////// -->
